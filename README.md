@@ -7,7 +7,7 @@ https://simpleit.rocks/python/django/custom-django-configurations-for-different-
 ## Directory tree
 
 ~~~
-.
+myapp/
 ├── _env
 ├── Makefile
 ├── manage.py
