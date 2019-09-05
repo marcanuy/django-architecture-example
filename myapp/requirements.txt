@@ -1,0 +1,2 @@
+# requirements.txt to work with hostings like heroku
+-r requirements/production.txt
