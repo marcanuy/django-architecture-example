@@ -3,6 +3,11 @@
 import os
 import sys
 
+from dotenv import load_dotenv
+from pathlib import Path
+
+env_path = Path(".") / ".env"
+load_dotenv(dotenv_path=env_path, verbose=True)
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myapp.settings.production')
