@@ -1,2 +1,2 @@
-Django==2.2.24
+Django==2.2.27
 python-dotenv==0.10.3
